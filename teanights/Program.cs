@@ -11,7 +11,7 @@ namespace teanights
         static void Main(string[] args)
         {
 
-
+            Console.WriteLine("Hello, Vlad!");
             /* int people = 40;
              int averagedonation = 100;
              int candleprice = 10;
