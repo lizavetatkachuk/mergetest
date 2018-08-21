@@ -31,10 +31,10 @@ namespace teanights
             int candleput=0; 
             while(true)
             {
-                Console.Clear;
+                Console.Clear();
                 Console.WriteLine("YOU HAVE" + money + "pounds");
                 Console.WriteLine("you have put" + candleput + "candles");
-                Console.WriteLine("Buy-buy acandle,put-put a candle");
+                Console.WriteLine("Buy-buy a candle,put-put a candle");
                 string buf = Console.ReadLine();
                 if(buf=="buy")
                 {
